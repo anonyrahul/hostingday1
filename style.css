@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    font-family: "robota",sans-serif;
+    font-weight: 300px;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header {
+    background-color: #270082;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+.logo {
+    font-size: 32px;
+    font-weight: 600px;
+}
+nav ul {
+    display: flex;
+    gap: 20px;
+    
+}
+nav ul li {
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in;
+}
+nav ul li:hover {
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in;
+}
+.hero-section {
+    background-image: url(images/vip.jpg);
+    height: 500px;
+    display: grid;
+    color: white;
+    place-items: center;
+    text-align: center;
+}
